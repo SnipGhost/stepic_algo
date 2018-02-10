@@ -37,5 +37,8 @@ int main()
 
     cout << i0 << " " << j0 << endl;
     //cout << a[i0] + b[j0] << endl;
+
+    delete[] a;
+    delete[] b;
     return 0;
 }
